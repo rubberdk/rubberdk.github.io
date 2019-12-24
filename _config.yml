@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Riley Knox - Portfolio
+email: riley.m.knox@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Riley Knox's professional and academic project portfolio.
+
+  Includes projects in Python, computer vision, robot manipulation, 3D printing, and more!
+
+baseurl: "/Portfolio" # the subpath of your site, e.g. /blog
+url: "localhost:4000" # the base hostname & protocol for your site
+twitter_username:
+github_username:  riley-knox
+
+# Build settings
+markdown: kramdown
