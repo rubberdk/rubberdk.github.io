@@ -45,6 +45,7 @@ ul.posts li {
 .container {
     position: relative;
     width: 50%
+    max-width: 300px;
 }
 
 .flex-container {
