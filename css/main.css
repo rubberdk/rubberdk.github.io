@@ -48,3 +48,7 @@ ul.posts li {
     align-content: space-around;
     justify-content: space-around;
 }
+
+.item{
+    margin: 5px;
+}
