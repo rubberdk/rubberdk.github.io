@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tracking
+title: Tracking an Object Using a Servo-Controlled Webcam
 permalink: /tracking/
 ---
 
