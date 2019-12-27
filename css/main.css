@@ -68,6 +68,6 @@ ul.posts li {
     text-align: center;
 }
 
-.overlay-container:hover .overlay{
+.container:hover .overlay{
     opacity:1;
 }
