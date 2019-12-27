@@ -67,8 +67,8 @@ ul.posts li {
 
 .overlay{
     position: absolute;
-    bottom: 0%;
-    top: 100%;
+    bottom: 100%;
+    top: 0%;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1
