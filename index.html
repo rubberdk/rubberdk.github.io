@@ -3,31 +3,23 @@ layout: default
 ---
 <div class="container">
 	<div class="row">
-	{% if site.posts.size > 0 %}
-		{%- for post in paginator.posts -%}
-		{% if forloop.index <= 1 %}
 		<div class="col col-12">
 			<article class="article-first">
 				<div class="article-image-first" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
 					<div class="article-content-first">
-						<div class="article-tag">
-						{% if post.tags.size >= 1 %}
-							{% for tag in post.tags %}
-							<a href="{{ site.baseurl }}/tags#{{tag}}" class="tag">{{ tag }}</a>
-							{% endfor %}
-						{% else %} {% endif %}
-						</div>
-						<h2 class="article-title"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h2>
-						<p class="article-excerpt">{% if post.description %}{{ post.description | strip_html | truncate: 163 }}{% else %}{{ post.content | strip_html | truncate: 163 }}{% endif %}</p>
-						<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">Read More</a>
+						<h2 class="article-title">{{site.author-name}}</h2>
+						<h3>ROBOTICS &bull; MEDICINE &bull; ENGINEERING</h3>
+						<p class="article-excerpt">
+							Master of Science in Robotics student at Northwestern University
+						</p>
+						<p class="article-excerpt">
+							Click here to learn more about me!
+						</p>
+						<a href="/about" class="button read-more">About Me</a>
 					</div>
 				</div>
-			</article> <!-- /.article-first -->
+			</article>
 		</div>
-		{% endif %}
-
-		{% endfor %}
-	{% endif %}
 	</div>
 </div>
 
