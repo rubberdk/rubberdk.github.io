@@ -1,91 +1,76 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Portfolio Home</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-				<li><a href="/about">About</a></li>
-				<li><a href="/projects">Projects</a></li>
-        		<li><a href="/resume">Resume</a></li>
-    		</ul>
-		</nav>
-
-		<div class="container">
-    		<div class="blurb">
-        		<center>
-					<h1>
-						Riley Knox
-					</h1>
-				</center>
-
-				<center>
-					<h2>
-						ROBOTICS &bull; MEDICINE &bull; ENGINEERING
-					</h2>
-				</center>
-
-				<p>
-					Welcome to my portfolio! I hope you find something here that sparks
-					your curiosity.
-				</p>
-
-				<p>
-					I am currently a first-year student in the Master of Science in Robotics
-					program at Northwestern University in Evanston, Illinois.	I received my
-					Bachelor's degree from the University of California, Davis in 2015 in
-					Biomedical Engineering. You can learn more about me in my 'About' section.
-				</p>
-
-				<p>
-					Below, I have listed the various projects I've worked on. Click on a project
-					tile for in-depth information, or head to the 'Projects' page to see a short
-					description of each.
-				</p>
-
-				<center>
-					<h2>
-						PAST PROJECTS	BBBBBBBAAA
-					</h2>
-				</center>
-			</div>
-		</div>
-
- 		<!-- Photo Grid -->
-		<center>
-			<div class="flex-container">
-				<a href="/tracking">
-					<div class="container">
-						<img src="images/all_cropped.jpg" width="25%" alt="all_cropped.jpg" class="image">
-						<div class="overlay">Object Tracking</div>
+---
+layout: default
+---
+<div class="container">
+	<div class="row">
+	{% if site.posts.size > 0 %}
+		{%- for post in paginator.posts -%}
+		{% if forloop.index <= 1 %}
+		<div class="col col-12">
+			<article class="article-first">
+				<div class="article-image-first" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
+					<div class="article-content-first">
+						<div class="article-tag">
+						{% if post.tags.size >= 1 %}
+							{% for tag in post.tags %}
+							<a href="{{ site.baseurl }}/tags#{{tag}}" class="tag">{{ tag }}</a>
+							{% endfor %}
+						{% else %} {% endif %}
+						</div>
+						<h2 class="article-title"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h2>
+						<p class="article-excerpt">{% if post.description %}{{ post.description | strip_html | truncate: 163 }}{% else %}{{ post.content | strip_html | truncate: 163 }}{% endif %}</p>
+						<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">Read More</a>
 					</div>
-				</a>
-			</div>
-		</center>
-
-		<div class="container">
-			<div class="blurb">
-				<p>
-					Professionally, I have worked in the prosthetics industry and spent more
-					than two and a half years in the Orthopedic Surgery department at the
-					University of California, San Francisco. These experiences led to my
-					fascination with medical robotics, particularly robotic surgery systems,
-					and I plan to enter the medical robotics industry once I obtain my Master's.
-					You may read more about these experiences in my 'Resume' section.
-				</p>
-    		</div>
+				</div>
+			</article> <!-- /.article-first -->
 		</div>
+		{% endif %}
 
-		<footer>
-    		<ul>
-        		<li><a href="mailto:riley.m.knox@gmail.com">email</a></li>
-        		<li><a href="https://github.com/riley-knox">GitHub</a></li>
-				<li><a href="https://www.linkedin.com/in/rileymknox/">LinkedIn</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+		{% endfor %}
+	{% endif %}
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col col-12 col-t-8">
+			<div class="row">
+			{%- for post in paginator.posts offset: 1 -%}
+				<article class="article col col-12 col-t-6">
+					<div class="article-box">
+						<div class="article-head">
+							<a href="{{ post.url | prepend: site.baseurl }}" class="article-image" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
+								<div class="image-overlay">
+									<span class="image-overlay-text">{{post.title | slice: 0}}</span>
+								</div>
+							</a>
+						</div>
+						<div class="article-content">
+							<div class="article-info">
+								<div class="article-date">
+									<span class="date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
+								</div>
+								<div class="article-tag">
+								{% if post.tags.size >= 1 %}
+									{% for tag in post.tags %}
+									<a href="{{ site.baseurl }}/tags#{{tag}}" class="tag">{{ tag }}</a>
+									{% endfor %}
+								{% else %} {% endif %}
+								</div>
+							</div>
+							<h2 class="article-title">
+								<a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+							</h2>
+							<p class="article-excerpt">{% if post.description %}{{ post.description | strip_html | truncate: 135 }}{% else %}{{ post.content | strip_html | truncate: 135 }}{% endif %}</p>
+						</div>
+					</div>
+				</article> <!-- /.article -->
+			{% endfor %}
+			</div>
+			{% include pagination.html %}
+		</div>
+		<div class="col col-12 col-t-4">
+			{% include sidebar.html %}
+		</div>
+	</div>
+</div>

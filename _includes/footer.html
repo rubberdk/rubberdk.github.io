@@ -1,38 +1,38 @@
-<footer class="site-footer">
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="footer-top">
+          <h2 class="logo-title">
+            <a href="{{site.baseurl}}/" class="logo-text">Galada</a>
+          </h2>
+          <div class="top"><i class="ion ion-ios-arrow-up"></i></div>
+        </div>
+        <div class="footer-bottom">
+          <div class="copyright">
+            <p>&copy; {{site.time | date: '%Y'}} Crafted & Designed by <a href="https://github.com/artemsheludko">Artem Sheludko</a></p>
+          </div>
+          <div class="footer-social">
+            <ul class="list-reset">
+              {% if site.facebook %}
+              <li><a href="{{ site.facebook }}">Facebook</a></li>
+              {% else %} {% endif %}
 
-  <div class="wrapper">
+              {% if site.twitter %}
+              <li><a href="{{ site.twitter }}">Twitter</a></li>
+              {% else %} {% endif %}
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+              {% if site.instagram %}
+              <li><a href="{{ site.instagram }}">Instagram</a></li>
+              {% else %} {% endif %}
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+              {% if site.pinterest %}
+              <li><a href="{{ site.pinterest }}">Pinterest</a></li>
+              {% else %} {% endif %}
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-
   </div>
-
-</footer>
+</footer> <!-- /.footer -->

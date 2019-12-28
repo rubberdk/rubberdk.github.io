@@ -1,21 +1,72 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+#-------------------------------
+# General Site Settings
 
-# Site settings
-title: Riley Knox - Portfolio
-email: riley.m.knox@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Riley Knox's professional and academic project portfolio.
+title: Galada Theme | Theme for Jekyll
+description: Galada is an easy and simple theme for Jekyll. Dark colors, give it a special exquisite look. A careful approach to design and features make it an ideal solution for a personal blog. # this means to ignore newlines until "baseurl:"
+baseurl: "/galada" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-  Includes projects in Python, computer vision, robot manipulation, 3D printing, and more!
 
-baseurl: "/Portfolio" # the subpath of your site, e.g. /blog
-url: "localhost:4000" # the base hostname & protocol for your site
-twitter_username:
-github_username:  riley-knox
+#-------------------------------
+# About Section
+author-name:   Natali Anderson
+author-avatar: 09.jpg
 
+
+#-------------------------------
+# Contact links
+facebook:  https://facebook.com/ # Add your Facebook handle
+twitter:   https://twitter.com/ # Add your Facebook handle
+instagram: https://www.instagram.com/ # Add your Facebook handle
+pinterest: https://www.pinterest.com/ # Add your Facebook handle
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Instagram Feed
+instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+
+#-------------------------------
+# Build settings
 markdown: kramdown
+permalink: ':title/'
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 7
+paginate_path: "/page/:num"
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+#-------------------------------
+# Exclude from processing.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
