@@ -68,9 +68,11 @@
   .project-content {
     width: 100%;
     display: inline-flex;
+    align-items: center;
     margin-bottom: 15px;
     .project-desc {
       width: 70%;
+      font-size: 18px;
     }
     .project-img {
       width: 30%;

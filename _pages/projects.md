@@ -14,10 +14,10 @@ permalink: /projects/
     </a>
     <div class="project-content">
         <div class="project-desc">
-            Dummy description 1
+            We wrote a Robot Operating System (ROS) package that allows a Rethink Robotics Sawyer robot to play mini-golf.
         </div>
         <div class="project-img">
-            Dummy image 1
+            <img src="/img/sawyer_minigolf.gif" alt="minigolf gif">
         </div>
     </div>
 </div>
