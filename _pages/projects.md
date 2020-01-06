@@ -7,7 +7,7 @@ permalink: /projects/
 
 <!-- Mini-golf -->
 <div class="project-entry">
-    <a href="">
+    <a href="/minigolf/">
         <div class="project-title">
             Sawyer Plays Mini-Golf
         </div>

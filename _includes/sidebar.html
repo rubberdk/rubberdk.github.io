@@ -1,6 +1,7 @@
 <aside class="sidebar">
 
-  {% if page.id %}
+<!-- "Recent Posts" Widget-->
+  <!-- {% if page.id %}
   <div class="widget widget-recent">
     <h3 class="widget-title">Recent Posts</h3>
     {% for post in site.posts limit:4 %}
@@ -21,12 +22,12 @@
     {% endfor %}
   </div>
   {% else %}
-  {% endif %}
+  {% endif %} -->
 
   <div class="widget widget-social">
     <h3 class="widget-title">Contact</h3>
     <ul class="social-profiles list-reset">
-      {% if site.facebook %}
+      <!-- {% if site.facebook %}
       <li class="social-profiles-item">
         <a href="{{ site.facebook }}" class="social-profiles-link"><i class="ion ion-logo-facebook"></i></a>
       </li>
@@ -48,7 +49,7 @@
       <li class="social-profiles-item">
         <a href="{{ site.pinterest }}" class="social-profiles-link"><i class="ion ion-logo-pinterest"></i></a>
       </li>
-      {% else %} {% endif %}
+      {% else %} {% endif %} -->
 
       {% if site.linkedin %}
       <li class="social-profiles-item">
@@ -63,7 +64,7 @@
       {% else %} {% endif %}
 
       <li class="social-profiles-item">
-        <a href="{{ site.email }}" class="social-profiles-link"><i class="icon-android-mail"></i></a>
+        <a href="{{ site.email }}" class="social-profiles-link"><i class="ion ion-md-mail"></i></a>
       </li>
     </ul>
   </div>

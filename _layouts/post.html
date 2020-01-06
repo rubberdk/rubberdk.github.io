@@ -25,7 +25,7 @@ layout: default
 					</div>
 					{% endif %}
 					<h1 class="post-title">{{ page.title | escape }}</h1>
-					<div class="post-info">
+					<!-- <div class="post-info">
 						<div class="post-info-author">
 							<div class="info-author-avatar" style="background-image: url({{"/img/" | prepend: site.baseurl | append : site.author-avatar}})"></div>
 							<span>by</span>
@@ -36,13 +36,14 @@ layout: default
 								<time datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date: '%b %d, %Y'}}</time>
 							</span>
 						</div>
-					</div>
+					</div> -->
 				</div>
 
 				<div class="post-body">
 					{{ content }}
 
-					<div class="post-share">
+					<!-- Social Media -->
+					<!-- <div class="post-share">
 						<ul class="share-list list-reset">
 							<li class="share-item">
 								<a class="share-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
@@ -76,10 +77,11 @@ layout: default
 								</a>
 							</li>
 						</ul>
-					</div>
+					</div> -->
 				</div>
 
-				<div class="post-navigation">
+				<!-- Navigation -->
+				<!-- <div class="post-navigation">
 					{% if page.previous.url %}
 					<a href="{{ site.baseurl }}{{page.previous.url}}" class="prev">
 						<div class="post-nav-arrow"><i class="ion ion-ios-arrow-round-back"></i> Previous Article</div>
@@ -91,7 +93,7 @@ layout: default
 						<h2 class="post-nav-title">{{page.next.title}}</h2>
 					</a>
 					{% endif %}
-				</div>
+				</div> -->
 
 			</div>
 			<!-- {% if site.disqus-identifier %} -->
