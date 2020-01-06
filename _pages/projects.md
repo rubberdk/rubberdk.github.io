@@ -24,7 +24,7 @@ permalink: /projects/
 
 <!-- Object Tracking -->
 <div class="project-entry">
-    <a href="">
+    <a href="/tracking/">
         <div class="project-title">
             Object Tracking with Servo-Controlled Webcam
         </div>
@@ -34,21 +34,21 @@ permalink: /projects/
             Dummy image 2
         </div>
         <div class="project-desc">
-            Dummy description 2
+            This Python project controls two servo motors to keep an object in the camera's field of view.
         </div>
     </div>
 </div>
 
 <!-- Finger Painting -->
 <div class="project-entry">
-    <a href="">
+    <a href="/painting/">
         <div class="project-title">
             Tracked Object Finger Painting
         </div>
     </a>
     <div class="project-content">
         <div class="project-desc">
-            Dummy description 3
+            A Paint-like program that allows the user to create works of art through object tracking and hand gesture recognition.
         </div>
         <div class="project-img">
             Dummy image 3
