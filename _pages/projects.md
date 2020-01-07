@@ -31,7 +31,7 @@ permalink: /projects/
     </a>
     <div class="project-content">
         <div class="project-img">
-            Dummy image 2
+            <img src="/img/webcam_ball.jpg" alt="webcam jpg">
         </div>
         <div class="project-desc">
             This Python project controls two servo motors to keep an object in the camera's field of view.

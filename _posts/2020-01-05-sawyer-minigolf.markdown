@@ -19,7 +19,7 @@ We mounted an external USB camera to the ceiling to obtain a clear view of the g
 Our strategy for hitting a shot consisted of the following steps:
 1. Bring Sawyer's arm to its home position to prevent obstructing the camera's view of the game space.
 2. View the game space using the external camera and identify/locate the ball and hole within it.
-3. Use previously determined calibration factors to translate the pixel locations of the ball and hole to Cartesian coordinates relative to Sawyer.
+3. Use previously determined calibration factors to translate the pixel locations of the ball and hole into Cartesian coordinates relative to Sawyer.
 4. Position Sawyer's putter behind the ball such that the putter is pointed towards the hole.
 5. Swing Sawyer's arm to hit the ball towards the hole.
 
