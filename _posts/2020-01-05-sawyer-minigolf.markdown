@@ -3,7 +3,7 @@ layout: post
 title:  Sawyer Plays Mini-Golf
 permalink: /minigolf/
 date:   2020-01-05 17:13:00
-image:  11.jpg
+image:  mgdemo_cropped.jpg
 tags:   [ROS, Python, Computer Vision]
 ---
 This was the final group project for my Embedded Systems in Robotics course in Fall 2019, in which we learned the Robot Operating System (ROS). The goal of this project was to create a ROS package that would allow a Rethink Robotics Sawyer robot to play miniature golf. The code for this project was written in Python using the rospy client library for ROS. The package makes use of the 3rd-party Python library OpenCV for computer vision, the ROS MoveIt! library for motion planning, and Gazebo for simulation.
