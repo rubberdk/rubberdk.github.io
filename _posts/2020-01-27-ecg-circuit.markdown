@@ -3,7 +3,7 @@ layout: post
 title:  Building an Electrocardiogram
 permalink: /ecg_circuit/
 date:   2020-01-01 02:18:00
-image:  
+image:  ecg_red.png
 tags:   [Medicine, Prototyping, Circuit Design]
 ---
 

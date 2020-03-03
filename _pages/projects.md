@@ -22,19 +22,19 @@ permalink: /projects/
     </div>
 </div>
 
-<!-- Object Tracking -->
+<!-- Building ECG Circuit -->
 <div class="project-entry">
-    <a href="/tracking/">
+    <a href="/ecg_circuit">
         <div class="project-title">
-            Object Tracking with Servo-Controlled Webcam
+            Building an Electrocardiogram
         </div>
     </a>
     <div class="project-content">
         <div class="project-img">
-            <img src="/img/webcam_ball.jpg" alt="webcam jpg">
+            <img src="/img/ecg_short.gif" alt="ECG">
         </div>
         <div class="project-desc">
-            This Python project controls two servo motors to keep an object in the camera's field of view.
+            I built an amplifying/filtering circuit to acquire readings of the electrical activity of a heartbeat.
         </div>
     </div>
 </div>
@@ -55,3 +55,22 @@ permalink: /projects/
         </div>
     </div>
 </div>
+
+<!-- Object Tracking -->
+<div class="project-entry">
+    <a href="/tracking/">
+        <div class="project-title">
+            Object Tracking with Servo-Controlled Webcam
+        </div>
+    </a>
+    <div class="project-content">
+        <div class="project-img">
+            <img src="/img/webcam_ball.jpg" alt="webcam jpg">
+        </div>
+        <div class="project-desc">
+            This Python project controls two servo motors to keep an object in the camera's field of view.
+        </div>
+    </div>
+</div>
+
+<!-- Published Papers -->
