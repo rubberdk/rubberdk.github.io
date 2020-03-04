@@ -162,12 +162,23 @@
 }
 
 .post-flex-display {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
     a {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .full-line-object {
+        .caption {
+            font-size: 15px;
+            font-style: italic;
+            text-align: center;
+        }
+        padding-top: 10px;
+        width: 100%
+
     }
 }
 

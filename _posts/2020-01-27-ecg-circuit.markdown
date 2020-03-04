@@ -23,7 +23,7 @@ ECGs used in hospital settings measure and display 12 "leads," or electrical sig
 
 ### Circuit Building Blocks
 
-Bioelectric signals are of very low magnitude and are also heavily influenced by noise. The ECG circuit I built for this project has three main components that each address one of these problems; I've briefly explained their functions below and have highlighted each component on the breadboard and circuit schematic images after.
+Bioelectric signals have very low magnitude and are also heavily influenced by noise. The ECG circuit I built for this project has three main components that each address one of these problems; I've briefly explained their functions below and have highlighted each component on the breadboard and circuit schematic images after.
 
 - Instrumentation amplifier (IA): amplifies the signals obtained by the two electrodes, while simultaneously removing signal components that are the same at each electrode input.
 - High-pass filter (HPF): prevents amplifier output saturation by eliminating DC components
@@ -36,4 +36,9 @@ Bioelectric signals are of very low magnitude and are also heavily influenced by
     <a href="https://riley-knox.github.io/img/ecg_breadboard.bmp">
         <img src="/img/ecg_breadboard.bmp" alt="ECG_breadboard" style="height:250px;width:auto">
     </a>
+    <div class="full-line-object">
+        <div class="caption">
+            Click either image to view it full size.
+        </div>
+    </div>
 </div>
