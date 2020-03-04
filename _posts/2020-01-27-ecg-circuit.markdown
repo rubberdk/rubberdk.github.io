@@ -38,7 +38,7 @@ Bioelectric signals have very low magnitude and are also heavily influenced by n
     </a>
     <div class="full-line-object">
         <div class="caption">
-            Click either image to view it full size.
+            Click either image to view it at full size.
         </div>
     </div>
 </div>

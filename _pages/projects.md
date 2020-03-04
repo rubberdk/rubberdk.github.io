@@ -40,7 +40,7 @@ permalink: /projects/
 </div>
 
 <!-- Finger Painting -->
-<div class="project-entry">
+<!-- <div class="project-entry">
     <a href="/painting/">
         <div class="project-title">
             Tracked Object Finger Painting
@@ -54,7 +54,7 @@ permalink: /projects/
             Dummy image 3
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Object Tracking -->
 <div class="project-entry">
