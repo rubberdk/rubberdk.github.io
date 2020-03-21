@@ -5,6 +5,23 @@ image:
 permalink: /projects/
 ---
 
+<!-- Robot Hand -->
+<div class="project-entry">
+    <a href="/hand_robot">
+        <div class="project-title">
+            Articulating Robotic Hand
+        </div>
+    </a>
+    <div class="project-content">
+        <div class="project-img">
+            <img src="/img/hand_bot.png" alt="robot hand">
+        </div>
+        <div class="project-desc">
+            I designed and built a servo-driven robotic hand that is fully controllable through the Robot Operating System (ROS).
+        </div>
+    </div>
+</div>
+
 <!-- Mini-golf -->
 <div class="project-entry">
     <a href="/minigolf/">
@@ -14,7 +31,7 @@ permalink: /projects/
     </a>
     <div class="project-content">
         <div class="project-desc">
-            We wrote a Robot Operating System (ROS) package that allows a Rethink Robotics Sawyer robot to play mini-golf.
+            We wrote a ROS package that allows a Rethink Robotics Sawyer robot to play mini-golf.
         </div>
         <div class="project-img">
             <img src="/img/sawyer_minigolf.gif" alt="minigolf gif">
