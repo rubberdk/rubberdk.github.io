@@ -66,10 +66,10 @@ Let one hand first place what it’s grabbing, then let the other hand grab the 
  
 ## Computer Vision
 <div class="post-flex-display">
-    <a href="https://rubberdk.github.io/img/baxter-cv.png">
+    <a href="https://rubberdk.github.io/img/baxter_cv.png">
         <img src="/img/baxter_cv.png" alt="cv-diagram" style="height:250px;width:auto">
     </a>
-    <a href="https://rubberdk.github.io/img/baxter-cvr.png">
+    <a href="https://rubberdk.github.io/img/baxter_cvr.png">
         <img src="/img/baxter_cvr.png" alt="cv-rqtview" style="height:250px;width:auto">
     </a>
     <div class="full-line-object">
