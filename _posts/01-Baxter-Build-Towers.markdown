@@ -86,7 +86,7 @@ Let one hand first place what it’s grabbing, then let the other hand grab the 
 - Arm_control nodes use those positions for Baxter's task for sorting or building cups
 
 
-# Project Team Members
+## Project Team Members
 
 Dimitrios Chamzas
 
