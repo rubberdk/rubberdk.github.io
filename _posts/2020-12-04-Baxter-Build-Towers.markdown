@@ -48,7 +48,7 @@ https://github.com/rubberdk/final-project-fast-tower
 - Set cup pose with set_model_state
 
 ## Rviz
-<div class="baxter-rviz">
+<div class="post-flex-display">
     <img src="/img/baxter-rviz.png" alt="rviz">
 </div>
 
@@ -59,13 +59,13 @@ https://github.com/rubberdk/final-project-fast-tower
 
 
 ## Robot Control
-<div class="baxter-control">
+<div class="post-flex-display">
     <img src="/img/baxter-control.png" alt="control">
 </div>
 Let one hand first place what it’s grabbing, then let the other hand grab the next cup to place.
  
 ## Computer Vision
-<div class="cv">
+<div class="post-flex-display">
     <a href="https://rubberdk.github.io/img/baxter-cv.png">
         <img src="/img/baxter-cv.png" alt="cv-diagram" style="height:250px;width:auto">
     </a>
