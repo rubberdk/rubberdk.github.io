@@ -2,7 +2,7 @@
 layout: post
 title: KUKA youBot Manipulation
 permalink: /hand_robot/
-# date: 2020-03-16 18:00:00
+date: 2020-12-01 00:00:00
 image: youbot.gif
 tags: [Python, CoppeliaSim, Control]
 ---
