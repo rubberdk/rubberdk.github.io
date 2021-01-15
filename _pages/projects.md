@@ -6,7 +6,7 @@ permalink: /projects/
 ---
 
 <!-- Robot Hand -->
-<div class="baxter">
+<div class="project-entry">
     <a href="/baxtower">
         <div class="project-title">
             Baxter Builds Towers
