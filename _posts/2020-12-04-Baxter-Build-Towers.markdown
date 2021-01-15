@@ -2,7 +2,7 @@
 layout: post
 title:  Baxter-Builds-Towers
 permalink: /baxtower/
-# date:   2020-01-01 02:18:00
+date:   2020-12-04 00:00:00
 image:  fasttower.gif
 tags:   [ROS, Pick-n-Place, Apriltag, Python]
 ---
