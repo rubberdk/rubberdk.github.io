@@ -22,4 +22,19 @@ permalink: /projects/
     </div>
 </div>
 
-<!-- Mini-golf -->
+<!-- youBot -->
+<div class="project-entry">
+    <a href="/youbot">
+        <div class="project-title">
+            KUKA youBot Manipulation
+        </div>
+    </a>
+    <div class="project-content">
+        <div class="project-img">
+            <img src="/img/youbot.gif" alt="youbot">
+        </div>
+        <div class="project-desc">
+            PI/PID Control and Trajectory Generation using Inverse Dynamics
+        </div>
+    </div>
+</div>
