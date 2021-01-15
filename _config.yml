@@ -1,17 +1,17 @@
 #-------------------------------
 # General Site Settings
 
-title: Rubberdk Robotics
-description:  # this means to ignore newlines until "baseurl:"
-# baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://rubberdk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+title: Riley Knox - Portfolio
+description: Galada is an easy and simple theme for Jekyll. Dark colors, give it a special exquisite look. A careful approach to design and features make it an ideal solution for a personal blog. # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://riley-knox.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #-------------------------------
 # About Section
-author-name:   Dongho Kang (DK)
-author-avatar: dkprofile.jpg
-title-front: "DK - "
+author-name:   Riley Knox
+author-avatar: 09.jpg
+title-front: "Riley Knox - "
 
 #-------------------------------
 # Contact links
@@ -19,9 +19,9 @@ title-front: "DK - "
 # twitter:   https://twitter.com/ # Add your Facebook handle
 # instagram: https://www.instagram.com/ # Add your Facebook handle
 # pinterest: https://www.pinterest.com/ # Add your Facebook handle
-linkedin: https://www.linkedin.com/in/dongho-kang-8a692b1b3/
-github: https://github.com/rubberdk
-email: mailto: dongkang2021@u.northwestern.edu
+linkedin: https://www.linkedin.com/in/rileymknox/
+github: https://github.com/riley-knox
+email: mailto:riley.m.knox@gmail.com
 
 
 #-------------------------------
