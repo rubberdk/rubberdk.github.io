@@ -4,7 +4,6 @@ title: About
 image: 08.jpg
 permalink: /about/
 ---
-![dk](https://raw.github.com/rubberdk/rubberdk.github.io/master/img/dk.png) <br/>
 
 # Dongho Kang (DK)
 
