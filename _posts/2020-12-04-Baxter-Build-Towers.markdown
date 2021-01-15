@@ -38,7 +38,7 @@ https://github.com/rubberdk/final-project-fast-tower
 # Project Details
 
 ## Gazebo Simulation
-<div class="baxter-gazebo">
+<div class="post-flex-display">
     <img src="/img/baxter_gazebo.png" alt="gazebo">
 </div>
 
@@ -66,19 +66,11 @@ Let one hand first place what it’s grabbing, then let the other hand grab the 
  
 ## Computer Vision
 <div class="post-flex-display">
-    <a href="https://rubberdk.github.io/img/baxter_cv.png">
-        <img src="/img/baxter_cv.png" alt="cv-diagram" style="height:250px;width:auto">
-    </a>
-    <a href="https://rubberdk.github.io/img/baxter_cvr.png">
-        <img src="/img/baxter_cvr.png" alt="cv-rqtview" style="height:250px;width:auto">
-    </a>
-    <div class="full-line-object">
-        <div class="caption">
-            Click to see the full images
-        </div>
-    </div>
+    <img src="/img/baxter_cv.png" alt="cv">
 </div>
-
+<div class="post-flex-display">
+    <img src="/img/baxter_cvr.png" alt="cvr">
+</div>
 
 - We used a aprtiltag_ros which is a ROS wrapper of the AprilTag to get x,y,z positions of the cups.
 - We mainly used the Baxter's right hand camera for tag deteection,but we gave options to use left camera or the head camera.
