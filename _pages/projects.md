@@ -9,7 +9,7 @@ permalink: /projects/
 <div class="baxter">
     <a href="/baxtower">
         <div class="project-title">
-            Articulating Robotic Hand
+            Baxter Builds Towers
         </div>
     </a>
     <div class="project-content">
