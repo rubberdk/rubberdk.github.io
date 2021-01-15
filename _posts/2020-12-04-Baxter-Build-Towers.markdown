@@ -39,7 +39,7 @@ https://github.com/rubberdk/final-project-fast-tower
 
 ## Gazebo Simulation
 <div class="baxter-gazebo">
-    <img src="/img/baxter-gazebo.png" alt="gazebo">
+    <img src="/img/baxter_gazebo.png" alt="gazebo">
 </div>
 
 - Baxter Simulator
@@ -49,7 +49,7 @@ https://github.com/rubberdk/final-project-fast-tower
 
 ## Rviz
 <div class="post-flex-display">
-    <img src="/img/baxter-rviz.png" alt="rviz">
+    <img src="/img/baxter_rviz.png" alt="rviz">
 </div>
 
 - Moveit to set the planning Scene and Rviz visualizer
@@ -60,17 +60,17 @@ https://github.com/rubberdk/final-project-fast-tower
 
 ## Robot Control
 <div class="post-flex-display">
-    <img src="/img/baxter-control.png" alt="control">
+    <img src="/img/baxter_control.png" alt="control">
 </div>
 Let one hand first place what it’s grabbing, then let the other hand grab the next cup to place.
  
 ## Computer Vision
 <div class="post-flex-display">
     <a href="https://rubberdk.github.io/img/baxter-cv.png">
-        <img src="/img/baxter-cv.png" alt="cv-diagram" style="height:250px;width:auto">
+        <img src="/img/baxter_cv.png" alt="cv-diagram" style="height:250px;width:auto">
     </a>
     <a href="https://rubberdk.github.io/img/baxter-cvr.png">
-        <img src="/img/baxter-cv.png" alt="cv-rqtview" style="height:250px;width:auto">
+        <img src="/img/baxter_cv.png" alt="cv-rqtview" style="height:250px;width:auto">
     </a>
     <div class="full-line-object">
         <div class="caption">
